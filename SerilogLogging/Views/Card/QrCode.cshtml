@@ -1,0 +1,33 @@
+﻿@using Entities
+@model VCard
+
+<div class="form-group">
+    <img src="@ViewBag.QrCodeUri" class="img-thumbnail" />
+</div>
+<form>
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+        <input type="text" id="form2Example" value=@Model.Firstname readonyl class="form-control" />
+        <label class="form-label" for="form2Example1">First name</label>
+    </div>
+    <div class="form-outline mb-4">
+        <input type="text" id="form2Example" value=@Model.Surname readonyl class="form-control" />
+        <label class="form-label" for="form2Example1">Surname</label>
+    </div>
+    <div class="form-outline mb-4">
+        <input type="text" id="form2Example" value=@Model.Email readonyl class="form-control" />
+        <label class="form-label" for="form2Example1">Email</label>
+    </div>
+    <div class="form-outline mb-4">
+        <input type="text" id="form2Example" value=@Model.Country readonyl class="form-control" />
+        <label class="form-label" for="form2Example1">Country</label>
+    </div>
+    <div class="form-outline mb-4">
+        <input type="text" id="form2Example" value=@Model.City readonyl class="form-control" />
+        <label class="form-label" for="form2Example1">City</label>
+    </div>
+    <div class="form-outline mb-4">
+        <input type="text" id="form2Example" value=@Model.Phone readonyl class="form-control" />
+        <label class="form-label" for="form2Example1">Phone</label>
+    </div>
+</form>

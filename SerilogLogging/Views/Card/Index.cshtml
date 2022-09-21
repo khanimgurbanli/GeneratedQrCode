@@ -1,0 +1,33 @@
+﻿@using Entities
+@model IEnumerable<VCard>
+QrCode
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Firstname</th>
+            <th scope="col">Lastname</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Email</th>
+            <th scope="col">Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var info in Model)
+        {
+                    <tr>
+                        <th scope>@info.Id</th>
+                        <td>@info.Firstname</td>
+                        <td>@info.Surname</td>
+                        <td>@info.Country</td>
+                        <td>@info.City</td>
+                        <td>@info.Phone</td>
+                        <td>@info.Email</td>
+                        <td><a href="/Card/QrCode/@info.Id">Get detail</a></td>
+                    </tr>
+        }
+    </tbody>
+</table>
+
