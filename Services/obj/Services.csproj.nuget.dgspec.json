@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Services\\Services.csproj": {}
+    "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\KHANIM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHANIM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Entities\\Entities.csproj"
+              "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Entities\\Entities.csproj": {
+    "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\KHANIM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHANIM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Services\\Services.csproj": {
+    "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\KHANIM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Services\\obj\\",
+        "outputPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHANIM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,14 +172,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Entities\\Entities.csproj"
+              "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Utils\\Utils.csproj": {
-                "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Utils\\Utils.csproj"
+              "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\Utils.csproj": {
+                "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\Utils.csproj"
               }
             }
           }
@@ -194,6 +194,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BarCode": {
+              "target": "Package",
+              "version": "[2022.9.8982, )"
+            },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -219,6 +223,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -227,14 +234,14 @@
         }
       }
     },
-    "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Utils\\Utils.csproj": {
+    "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Utils\\Utils.csproj",
+        "projectUniqueName": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Utils\\Utils.csproj",
+        "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\Utils.csproj",
         "packagesPath": "C:\\Users\\KHANIM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Utils\\obj\\",
+        "outputPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHANIM\\AppData\\Roaming\\NuGet\\NuGet.Config",

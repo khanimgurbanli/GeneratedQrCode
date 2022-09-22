@@ -2301,3 +2301,26 @@ FROM [VCard] AS [v]
 WHERE [v].[Id] = @__id_0
 2022-09-21 15:03:14.646 +04:00 [INF] Show generated qr code and about info page
 2022-09-21 15:03:14.733 +04:00 [INF] HTTP GET /Card/QrCode/1 responded 200 in 2111.9911 ms
+2022-09-22 21:06:43.486 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-22 21:06:43.980 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-22 21:06:44.008 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-22 21:06:44.112 +04:00 [INF] Hosting environment: Development
+2022-09-22 21:06:44.134 +04:00 [INF] Content root path: C:\Users\KHANIM\Source\Repos\GeneratedQrCode\SerilogLogging\
+2022-09-22 21:06:53.034 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-22 21:06:58.318 +04:00 [INF] Executed DbCommand (214ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-22 21:06:59.904 +04:00 [INF] HTTP GET / responded 200 in 12298.7989 ms
+2022-09-22 21:07:00.264 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 6.9939 ms
+2022-09-22 21:07:05.140 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-22 21:07:06.266 +04:00 [INF] Executed DbCommand (146ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-22 21:07:10.851 +04:00 [INF] Show generated qr code and about info page
+2022-09-22 21:07:10.869 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-22 21:07:11.055 +04:00 [INF] HTTP GET /Card/QrCode/1 responded 200 in 7247.9298 ms
+2022-09-22 21:07:11.135 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 0.0421 ms

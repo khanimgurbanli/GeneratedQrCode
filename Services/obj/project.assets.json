@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "BarCode/2022.9.8982": {
+        "type": "package",
+        "dependencies": {
+          "IronSoftware.System.Drawing": "2022.9.8843"
+        },
+        "compile": {
+          "lib/netstandard2.0/IronBarCode.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronBarCode.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "EmguFFmpeg/1.0.17": {
         "type": "package",
         "dependencies": {
@@ -45,6 +61,22 @@
         "runtime": {
           "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "IronSoftware.System.Drawing/2022.9.8843": {
+        "type": "package",
+        "dependencies": {
+          "SixLabors.ImageSharp.Drawing": "1.0.0-beta15"
+        },
+        "compile": {
+          "lib/netstandard2.0/IronSoftware.Drawing.Common.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronSoftware.Drawing.Common.dll": {
+            "related": ".pdb"
           }
         }
       },
@@ -563,6 +595,53 @@
           "lib/net6.0/QRCoder.dll": {}
         }
       },
+      "SixLabors.Fonts/1.0.0-beta18": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/2.1.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SixLabors.ImageSharp.Drawing/1.0.0-beta15": {
+        "type": "package",
+        "dependencies": {
+          "SixLabors.Fonts": "1.0.0-beta18",
+          "SixLabors.ImageSharp": "2.1.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Collections.Immutable/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -798,13 +877,13 @@
           }
         }
       },
-      "System.Text.Encoding.CodePages/4.7.0": {
+      "System.Text.Encoding.CodePages/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.1.0"
+          "Microsoft.NETCore.Platforms": "5.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
             "related": ".xml"
           }
         },
@@ -882,6 +961,28 @@
     }
   },
   "libraries": {
+    "BarCode/2022.9.8982": {
+      "sha512": "PeE9clBK5fytknkWc9JhcimHTjGA3h8fM8Oy6Fj+anOmI4wXJ2KIusPzVLcS1LEDFQyEySwbUZWIbJIdxdWEXg==",
+      "type": "package",
+      "path": "barcode/2022.9.8982",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.txt",
+        "barcode.2022.9.8982.nupkg.sha512",
+        "barcode.nuspec",
+        "docs/README.md",
+        "images/iron-logo-128.png",
+        "lib/net462/IronBarCode.dll",
+        "lib/net462/IronBarCode.pdb",
+        "lib/net462/IronBarCode.xml",
+        "lib/netstandard2.0/IronBarCode.dll",
+        "lib/netstandard2.0/IronBarCode.pdb",
+        "lib/netstandard2.0/IronBarCode.xml",
+        "readme-setup.txt",
+        "readme.txt"
+      ]
+    },
     "EmguFFmpeg/1.0.17": {
       "sha512": "GYGNb4qp1qxxvSDhFml+bkAmoq7FMz5OZp6L0oHo8xpq4fahpjXrmDhxFSuRQEND4vXLQdaYUaPe073SRQN4kw==",
       "type": "package",
@@ -938,6 +1039,21 @@
         "lib/netstandard2.0/FFmpeg.AutoGen.xml",
         "lib/netstandard2.1/FFmpeg.AutoGen.dll",
         "lib/netstandard2.1/FFmpeg.AutoGen.xml"
+      ]
+    },
+    "IronSoftware.System.Drawing/2022.9.8843": {
+      "sha512": "TrRRBwWWBz0BoRV3VM6cn9tlzkxebfYvGMCFkxhArv6wB8lrW75bcCXcp0Bc8OI8GJegOsx31cCHO9GS00AzjQ==",
+      "type": "package",
+      "path": "ironsoftware.system.drawing/2022.9.8843",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.txt",
+        "docs/README.md",
+        "ironsoftware.system.drawing.2022.9.8843.nupkg.sha512",
+        "ironsoftware.system.drawing.nuspec",
+        "lib/netstandard2.0/IronSoftware.Drawing.Common.dll",
+        "lib/netstandard2.0/IronSoftware.Drawing.Common.pdb"
       ]
     },
     "Microsoft.CSharp/4.5.0": {
@@ -1698,6 +1814,68 @@
         "qrcoder.nuspec"
       ]
     },
+    "SixLabors.Fonts/1.0.0-beta18": {
+      "sha512": "evykNmy/kEE9EAEKgZm3MNUYXuMHFfmcLUNPw7Ho5q7OI96GFkkIxBm+QaKOTPBKw+L0AjKOs+ArVg8P40Ac9g==",
+      "type": "package",
+      "path": "sixlabors.fonts/1.0.0-beta18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/SixLabors.Fonts.dll",
+        "lib/netcoreapp3.1/SixLabors.Fonts.xml",
+        "lib/netstandard2.0/SixLabors.Fonts.dll",
+        "lib/netstandard2.0/SixLabors.Fonts.xml",
+        "lib/netstandard2.1/SixLabors.Fonts.dll",
+        "lib/netstandard2.1/SixLabors.Fonts.xml",
+        "sixlabors.fonts.1.0.0-beta18.nupkg.sha512",
+        "sixlabors.fonts.128.png",
+        "sixlabors.fonts.nuspec"
+      ]
+    },
+    "SixLabors.ImageSharp/2.1.3": {
+      "sha512": "8yonNRWX3vUE9k29ta0Hbfa0AEc0hbDjSH/nZ3vOTJEXmY6hLnGsjDKoz96Z+AgOsrdkAu6PdL/Ebaf70aitzw==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/2.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/SixLabors.ImageSharp.dll",
+        "lib/net472/SixLabors.ImageSharp.xml",
+        "lib/netcoreapp2.1/SixLabors.ImageSharp.dll",
+        "lib/netcoreapp2.1/SixLabors.ImageSharp.xml",
+        "lib/netcoreapp3.1/SixLabors.ImageSharp.dll",
+        "lib/netcoreapp3.1/SixLabors.ImageSharp.xml",
+        "lib/netstandard2.0/SixLabors.ImageSharp.dll",
+        "lib/netstandard2.0/SixLabors.ImageSharp.xml",
+        "lib/netstandard2.1/SixLabors.ImageSharp.dll",
+        "lib/netstandard2.1/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.2.1.3.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    },
+    "SixLabors.ImageSharp.Drawing/1.0.0-beta15": {
+      "sha512": "HMb/JNtNsSOr0lh71s5jD4Bv7sUwTxhGz2fOtuXcInQ4p9SB+1oEY3I6PrKXHpOCKaYArLD5r/4mA8t0dT/M5A==",
+      "type": "package",
+      "path": "sixlabors.imagesharp.drawing/1.0.0-beta15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/SixLabors.ImageSharp.Drawing.dll",
+        "lib/net472/SixLabors.ImageSharp.Drawing.xml",
+        "lib/netcoreapp2.1/SixLabors.ImageSharp.Drawing.dll",
+        "lib/netcoreapp2.1/SixLabors.ImageSharp.Drawing.xml",
+        "lib/netcoreapp3.1/SixLabors.ImageSharp.Drawing.dll",
+        "lib/netcoreapp3.1/SixLabors.ImageSharp.Drawing.xml",
+        "lib/netstandard2.0/SixLabors.ImageSharp.Drawing.dll",
+        "lib/netstandard2.0/SixLabors.ImageSharp.Drawing.xml",
+        "lib/netstandard2.1/SixLabors.ImageSharp.Drawing.dll",
+        "lib/netstandard2.1/SixLabors.ImageSharp.Drawing.xml",
+        "sixlabors.imagesharp.drawing.1.0.0-beta15.nupkg.sha512",
+        "sixlabors.imagesharp.drawing.128.png",
+        "sixlabors.imagesharp.drawing.nuspec"
+      ]
+    },
     "System.Collections.Immutable/6.0.0": {
       "sha512": "l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
       "type": "package",
@@ -2124,13 +2302,14 @@
         "version.txt"
       ]
     },
-    "System.Text.Encoding.CodePages/4.7.0": {
-      "sha512": "aeu4FlaUTemuT1qOd1MyU4T516QR4Fy+9yDbwWMPHOHy7U8FD6SgTzdZFO7gHcfAPHtECqInbwklVvUK4RHcNg==",
+    "System.Text.Encoding.CodePages/5.0.0": {
+      "sha512": "NyscU59xX6Uo91qvhOs2Ccho3AR2TnZPomo1Z0K6YpyztBPM/A5VbkzOO19sy3A3i1TtEnTxA7bCe3Us+r5MWg==",
       "type": "package",
-      "path": "system.text.encoding.codepages/4.7.0",
+      "path": "system.text.encoding.codepages/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -2158,7 +2337,7 @@
         "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
         "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
         "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
-        "system.text.encoding.codepages.4.7.0.nupkg.sha512",
+        "system.text.encoding.codepages.5.0.0.nupkg.sha512",
         "system.text.encoding.codepages.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -2203,6 +2382,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BarCode >= 2022.9.8982",
       "DataAccess >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.Extensions.Hosting.Abstractions >= 3.1.8",
@@ -2217,11 +2397,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Services\\Services.csproj",
+      "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\KHANIM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Services\\obj\\",
+      "outputPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KHANIM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2238,14 +2418,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Entities\\Entities.csproj"
+            "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Utils\\Utils.csproj": {
-              "projectPath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Utils\\Utils.csproj"
+            "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\Utils.csproj": {
+              "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\Utils.csproj"
             }
           }
         }
@@ -2260,6 +2440,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "BarCode": {
+            "target": "Package",
+            "version": "[2022.9.8982, )"
+          },
           "Microsoft.Extensions.Hosting.Abstractions": {
             "target": "Package",
             "version": "[3.1.8, )"
@@ -2285,6 +2469,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

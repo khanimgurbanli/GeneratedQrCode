@@ -14,7 +14,7 @@ namespace Services
         Task HttpClientVCardAsync();
         Task DeleteVCardAsync(int id);
         Task UpdateVCardAsync(int id);
-        Task GenerateQrCodeAsync();
+        Task<string> GenerateQrCodeAsync(int id);
         Task<VCard> GetVCardByIdAsync(int id);
         Task<ICollection<VCard>> GetAllVCardsAsync();
     }

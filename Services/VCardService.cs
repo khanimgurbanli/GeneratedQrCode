@@ -1,4 +1,6 @@
 ﻿using Entities;
+using IronBarCode;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json.Linq;
 using QRCoder;
@@ -18,8 +20,8 @@ namespace Services
     public class VCardService : IVCardService
     {
         private readonly IBaseService<VCard> _baseService;
-        private readonly IHostEnvironment _environment;
-        public VCardService(IBaseService<VCard> baseService, IHostEnvironment environment)
+        private readonly IWebHostEnvironment _environment;
+        public VCardService(IBaseService<VCard> baseService, IWebHostEnvironment environment)
         {
             _baseService = baseService;
             _environment=environment;
@@ -82,9 +84,27 @@ namespace Services
             var check = await _baseService.SaveAsync();
         }
 
-        public async Task GenerateQrCodeAsync()
+        public async Task<string> GenerateQrCodeAsync(int id)
         {
-            var getData = await _baseService.GetAsync(c => c.Id == 1);
+            var getdata = await GetVCardByIdAsync(id);
+            GeneratedBarcode barcode = QRCodeWriter.CreateQrCode
+                   (
+                      $"{getdata.Firstname}\n{getdata.Surname}\n{getdata.Country}\n{getdata.City}\n{getdata.Email}\n{getdata.Phone}", 200
+                   );
+            // barcode.AddBarcodeValueTextBelowBarcode();
+            // Styling a QR code and adding annotation text
+            barcode.SetMargins(10);
+            barcode.ChangeBarCodeColor(Color.BlueViolet);
+            string path = Path.Combine(_environment.WebRootPath, "GeneratedQRCode");
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+            string filePath = Path.Combine(_environment.WebRootPath, "GeneratedQRCode/qrcode.png");
+            barcode.SaveAsPng(filePath);
+            string fileName = Path.GetFileName(filePath);
+
+            return fileName;
         }
     }
     public static class BitmapExtension

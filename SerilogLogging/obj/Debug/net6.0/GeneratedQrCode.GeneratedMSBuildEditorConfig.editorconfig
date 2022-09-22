@@ -8,65 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GeneratedQrCode
 build_property.RootNamespace = GeneratedQrCode
-build_property.ProjectDir = C:\Users\KHANIM\source\repos\TryCustomMiddleware\Logging_Serilog\SerilogLogging\
+build_property.ProjectDir = C:\Users\KHANIM\Source\Repos\GeneratedQrCode\SerilogLogging\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\KHANIM\source\repos\TryCustomMiddleware\Logging_Serilog\SerilogLogging
+build_property.MSBuildProjectDirectory = C:\Users\KHANIM\Source\Repos\GeneratedQrCode\SerilogLogging
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/Add.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Card/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/Codes.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Card/Codes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxDb2Rlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/GetDataFromApi.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Card/GetDataFromApi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxHZXREYXRhRnJvbUFwaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/Index.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Card/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/NotFound.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Card/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxOb3RGb3VuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/Opps.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Card/Opps.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxPcHBzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/QrCode.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Card/QrCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxRckNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Home/Index.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Home/Privacy.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Shared/Error.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/_ViewImports.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/_ViewStart.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Shared/_Layout.cshtml]
+[C:/Users/KHANIM/Source/Repos/GeneratedQrCode/SerilogLogging/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8szj6mra8g

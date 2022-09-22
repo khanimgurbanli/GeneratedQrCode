@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "afE/iGaVrp845nKNB7jrU4SwRzE9P5iUJmpvjW2OcuMsmdRH2YbTOAZfSmk9XI3Zx0se/fB/9D0CKMOVvlSBgQ==",
+  "dgSpecHash": "SgWKy2dJ5aazAwedv41NBa+uTA20xrAemMvDIHm+JomB8mQvygbfV4y/5NlNvDAj4BHVyTtH0bgbFT1E1SgvLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

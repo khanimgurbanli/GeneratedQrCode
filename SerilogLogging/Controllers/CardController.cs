@@ -12,10 +12,8 @@ namespace Logging_Serilog.Controllers
     {
         private readonly IVCardService _cardService;
         private readonly ILogger<CardController> _logger;
-        private readonly IWebHostEnvironment _environment;
-        public CardController(IVCardService cardService, ILogger<CardController> logger, IWebHostEnvironment environment)
+        public CardController(IVCardService cardService, ILogger<CardController> logger)
         {
-            _environment = environment;
             _cardService = cardService;
             _logger = logger;
         }
@@ -23,38 +21,22 @@ namespace Logging_Serilog.Controllers
         public IActionResult NotFound() => View();
         public async Task<IActionResult> QrCode(int id )
         {
-            var getdata = await _cardService.GetVCardByIdAsync(id);
+            var fileName = await _cardService.GenerateQrCodeAsync(id);
+
             try
             {
-                GeneratedBarcode barcode = QRCodeWriter.CreateQrCode
-                    (
-                       $"{getdata.Firstname}\n{getdata.Surname}\n{getdata.Country}\n{getdata.City}\n{getdata.Email}\n{getdata.Phone}", 200
-                    );
-                // barcode.AddBarcodeValueTextBelowBarcode();
-                // Styling a QR code and adding annotation text
-                barcode.SetMargins(10);
-                barcode.ChangeBarCodeColor(Color.BlueViolet);
-                string path = Path.Combine(_environment.WebRootPath, "GeneratedQRCode");
-                if (!Directory.Exists(path))
-                {
-                    Directory.CreateDirectory(path);
-                }
-                string filePath = Path.Combine(_environment.WebRootPath, "GeneratedQRCode/qrcode.png");
-                barcode.SaveAsPng(filePath);
-                string fileName = Path.GetFileName(filePath);
-
                 string imageUrl = $"{this.Request.Scheme}://{this.Request.Host}{this.Request.PathBase}" + "/GeneratedQRCode/" + fileName;
                 @ViewBag.QrCodeUri = imageUrl;
 
                 _logger.LogInformation("Show generated qr code and about info page");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                _logger.LogInformation("Invalid sent request for get about generated qr code and private info");
+                _logger.LogInformation($"Invalid sent request for get about generated qr code and private info.Details{ex}");
                 throw;
             }
 
-            return View(getdata);
+            return View(await _cardService.GetVCardByIdAsync(id));
         }
 
 
@@ -74,15 +56,13 @@ namespace Logging_Serilog.Controllers
                 _logger.LogInformation("Added succesfully new record");
                 return View();
             }
-            catch (Exception ex)
+            catch (Exception ex )
             {
                 _logger.LogInformation("Don't add a new record");
                 _logger.LogInformation($"Details for fail insert operation{ex}");
                 return RedirectToAction("Opps");
             }
         }
-        // public IActionResult GetDataFromApi() => View();
-
 
         public async Task<IActionResult> GetDataFromApi()
         {
