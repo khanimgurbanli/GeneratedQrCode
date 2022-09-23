@@ -1,4 +1,4 @@
-namespace SerilogLogging.Models
+namespace GeneratedQrCode.Models
 {
     public class ErrorViewModel
     {

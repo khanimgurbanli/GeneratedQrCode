@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SerilogLogging.Models;
+using GeneratedQrCode.Models;
 using System.Diagnostics;
 
-namespace SerilogLogging.Controllers
+namespace GeneratedQrCode.Controllers
 {
     public class HomeController : Controller
     {
