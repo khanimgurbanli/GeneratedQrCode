@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9mSjqwE5qNZdxGu9GG1T6gDL/U4qBGDDS1HjpqWzOanqvXBoPkL2g84hU8XHdutuw9T2CxUfsi4P6kz8SsqnvA==",
+  "dgSpecHash": "atXix+ZExiajqiefo3nmT7JaWAGNX3xRIvObRDQwRRwFGg4uPChpWPZZu0J/9NuWB41EphcfxKqZ/ZKX9pSkDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KHANIM\\.nuget\\packages\\barcode\\2022.9.8982\\barcode.2022.9.8982.nupkg.sha512",
     "C:\\Users\\KHANIM\\.nuget\\packages\\emguffmpeg\\1.0.17\\emguffmpeg.1.0.17.nupkg.sha512",

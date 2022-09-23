@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nFuVHE+w24gD0aO1Bknr32fKSHMm91oW2CRrMfsg44IGESJu9hePqMVlqLxjHobbD9XkloF6/z0B8qqDnVsrKg==",
+  "dgSpecHash": "6o1pFPUwaM7amEWSmPOv1T3o2wkrzK36DCFlZUyOWd4H/jjt+88gmvPghx5Se1R0EJ2+pYDWaB4ojErWA5tWCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KHANIM\\.nuget\\packages\\emguffmpeg\\1.0.17\\emguffmpeg.1.0.17.nupkg.sha512",
     "C:\\Users\\KHANIM\\.nuget\\packages\\emguffmpeg.bitmap\\1.0.17\\emguffmpeg.bitmap.1.0.17.nupkg.sha512",

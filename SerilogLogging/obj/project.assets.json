@@ -4790,7 +4790,6 @@
           "Entities": "1.0.0",
           "Microsoft.Extensions.Hosting.Abstractions": "3.1.8",
           "Newtonsoft.Json": "13.0.1",
-          "QRCoder": "1.4.3",
           "Utils": "1.0.0"
         },
         "compile": {
@@ -13064,11 +13063,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\SerilogLogging\\GeneratedQrCode.csproj",
+      "projectUniqueName": "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\SerilogLogging\\GeneratedQrCode.csproj",
       "projectName": "GeneratedQrCode",
-      "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\SerilogLogging\\GeneratedQrCode.csproj",
+      "projectPath": "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\SerilogLogging\\GeneratedQrCode.csproj",
       "packagesPath": "C:\\Users\\KHANIM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\SerilogLogging\\obj\\",
+      "outputPath": "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\SerilogLogging\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KHANIM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13085,11 +13084,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Entities\\Entities.csproj"
+            "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Services\\Services.csproj"
+            "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\Services\\Services.csproj"
             }
           }
         }

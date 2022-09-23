@@ -1,18 +1,9 @@
 ﻿using Entities;
 using IronBarCode;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json.Linq;
-using QRCoder;
-using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 using Utils.Exceptions;
 
 namespace Services
@@ -30,7 +21,7 @@ namespace Services
         public async Task AddVCardAsync(VCard card)
         {
             var getDoctor = await _baseService.GetAsync(d => d.Id == card.Id);
-            if (getDoctor != null) throw new AlreadyExistException("Already exist doctor");
+            if (getDoctor != null) throw new AlreadyExistException("Already exist record");
 
             await _baseService.CreateAsync(card);
             await _baseService.SaveAsync();
@@ -39,7 +30,7 @@ namespace Services
         public async Task DeleteVCardAsync(int id)
         {
             var deleteVCard = await _baseService.GetAsync(d => d.Id == id);
-            if (deleteVCard == null) throw new NotFoundException("Not found doctor");
+            if (deleteVCard == null) throw new NotFoundException("Not found record");
 
             _baseService.Delete(deleteVCard);
             await _baseService.SaveAsync();

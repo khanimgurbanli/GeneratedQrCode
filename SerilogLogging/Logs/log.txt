@@ -2324,3 +2324,307 @@ FROM [VCard] AS [v]
 WHERE [v].[Id] = @__id_0
 2022-09-22 21:07:11.055 +04:00 [INF] HTTP GET /Card/QrCode/1 responded 200 in 7247.9298 ms
 2022-09-22 21:07:11.135 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 0.0421 ms
+2022-09-23 02:14:47.732 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 02:14:47.861 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 02:14:47.883 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 02:14:47.894 +04:00 [INF] Hosting environment: Development
+2022-09-23 02:14:47.905 +04:00 [INF] Content root path: C:\Users\KHANIM\Source\Repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 02:15:39.869 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 02:15:46.053 +04:00 [INF] Executed DbCommand (302ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 02:16:14.062 +04:00 [INF] HTTP GET / responded 200 in 84577.0132 ms
+2022-09-23 02:16:14.254 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 10.3422 ms
+2022-09-23 02:18:14.143 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 02:18:14.191 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 02:18:14.199 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 02:18:14.203 +04:00 [INF] Hosting environment: Development
+2022-09-23 02:18:14.207 +04:00 [INF] Content root path: C:\Users\KHANIM\Source\Repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 02:18:29.248 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 02:18:31.947 +04:00 [INF] Executed DbCommand (175ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 02:19:31.701 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 02:19:31.768 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 02:19:31.780 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 02:19:31.787 +04:00 [INF] Hosting environment: Development
+2022-09-23 02:19:31.794 +04:00 [INF] Content root path: C:\Users\KHANIM\Source\Repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 02:19:39.393 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 02:19:42.026 +04:00 [INF] Executed DbCommand (157ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 02:23:43.945 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 02:23:44.106 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 02:23:44.201 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 02:23:44.213 +04:00 [INF] Hosting environment: Development
+2022-09-23 02:23:44.223 +04:00 [INF] Content root path: C:\Users\KHANIM\Source\Repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 02:24:05.336 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 02:24:08.103 +04:00 [INF] Executed DbCommand (129ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 02:26:53.229 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 02:26:53.318 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 02:26:53.326 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 02:26:53.331 +04:00 [INF] Hosting environment: Development
+2022-09-23 02:26:53.336 +04:00 [INF] Content root path: C:\Users\KHANIM\Source\Repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 02:27:12.851 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 02:27:15.258 +04:00 [INF] Executed DbCommand (165ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 02:27:26.847 +04:00 [INF] HTTP GET / responded 302 in 32477.4563 ms
+2022-09-23 02:27:31.603 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 02:27:33.911 +04:00 [INF] Executed DbCommand (1,381ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (Size = 4000), @p17='?' (Size = 4000), @p18='?' (Size = 4000), @p19='?' (Size = 4000), @p20='?' (Size = 4000), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (Size = 4000), @p25='?' (Size = 4000), @p26='?' (Size = 4000), @p27='?' (Size = 4000), @p28='?' (Size = 4000), @p29='?' (Size = 4000), @p30='?' (Size = 4000), @p31='?' (Size = 4000), @p32='?' (Size = 4000), @p33='?' (Size = 4000), @p34='?' (Size = 4000), @p35='?' (Size = 4000), @p36='?' (Size = 4000), @p37='?' (Size = 4000), @p38='?' (Size = 4000), @p39='?' (Size = 4000), @p40='?' (Size = 4000), @p41='?' (Size = 4000), @p42='?' (Size = 4000), @p43='?' (Size = 4000), @p44='?' (Size = 4000), @p45='?' (Size = 4000), @p46='?' (Size = 4000), @p47='?' (Size = 4000), @p48='?' (Size = 4000), @p49='?' (Size = 4000), @p50='?' (Size = 4000), @p51='?' (Size = 4000), @p52='?' (Size = 4000), @p53='?' (Size = 4000), @p54='?' (Size = 4000), @p55='?' (Size = 4000), @p56='?' (Size = 4000), @p57='?' (Size = 4000), @p58='?' (Size = 4000), @p59='?' (Size = 4000), @p60='?' (Size = 4000), @p61='?' (Size = 4000), @p62='?' (Size = 4000), @p63='?' (Size = 4000), @p64='?' (Size = 4000), @p65='?' (Size = 4000), @p66='?' (Size = 4000), @p67='?' (Size = 4000), @p68='?' (Size = 4000), @p69='?' (Size = 4000), @p70='?' (Size = 4000), @p71='?' (Size = 4000), @p72='?' (Size = 4000), @p73='?' (Size = 4000), @p74='?' (Size = 4000), @p75='?' (Size = 4000), @p76='?' (Size = 4000), @p77='?' (Size = 4000), @p78='?' (Size = 4000), @p79='?' (Size = 4000), @p80='?' (Size = 4000), @p81='?' (Size = 4000), @p82='?' (Size = 4000), @p83='?' (Size = 4000), @p84='?' (Size = 4000), @p85='?' (Size = 4000), @p86='?' (Size = 4000), @p87='?' (Size = 4000), @p88='?' (Size = 4000), @p89='?' (Size = 4000), @p90='?' (Size = 4000), @p91='?' (Size = 4000), @p92='?' (Size = 4000), @p93='?' (Size = 4000), @p94='?' (Size = 4000), @p95='?' (Size = 4000), @p96='?' (Size = 4000), @p97='?' (Size = 4000), @p98='?' (Size = 4000), @p99='?' (Size = 4000), @p100='?' (Size = 4000), @p101='?' (Size = 4000), @p102='?' (Size = 4000), @p103='?' (Size = 4000), @p104='?' (Size = 4000), @p105='?' (Size = 4000), @p106='?' (Size = 4000), @p107='?' (Size = 4000), @p108='?' (Size = 4000), @p109='?' (Size = 4000), @p110='?' (Size = 4000), @p111='?' (Size = 4000), @p112='?' (Size = 4000), @p113='?' (Size = 4000), @p114='?' (Size = 4000), @p115='?' (Size = 4000), @p116='?' (Size = 4000), @p117='?' (Size = 4000), @p118='?' (Size = 4000), @p119='?' (Size = 4000), @p120='?' (Size = 4000), @p121='?' (Size = 4000), @p122='?' (Size = 4000), @p123='?' (Size = 4000), @p124='?' (Size = 4000), @p125='?' (Size = 4000), @p126='?' (Size = 4000), @p127='?' (Size = 4000), @p128='?' (Size = 4000), @p129='?' (Size = 4000), @p130='?' (Size = 4000), @p131='?' (Size = 4000), @p132='?' (Size = 4000), @p133='?' (Size = 4000), @p134='?' (Size = 4000), @p135='?' (Size = 4000), @p136='?' (Size = 4000), @p137='?' (Size = 4000), @p138='?' (Size = 4000), @p139='?' (Size = 4000), @p140='?' (Size = 4000), @p141='?' (Size = 4000), @p142='?' (Size = 4000), @p143='?' (Size = 4000), @p144='?' (Size = 4000), @p145='?' (Size = 4000), @p146='?' (Size = 4000), @p147='?' (Size = 4000), @p148='?' (Size = 4000), @p149='?' (Size = 4000), @p150='?' (Size = 4000), @p151='?' (Size = 4000), @p152='?' (Size = 4000), @p153='?' (Size = 4000), @p154='?' (Size = 4000), @p155='?' (Size = 4000), @p156='?' (Size = 4000), @p157='?' (Size = 4000), @p158='?' (Size = 4000), @p159='?' (Size = 4000), @p160='?' (Size = 4000), @p161='?' (Size = 4000), @p162='?' (Size = 4000), @p163='?' (Size = 4000), @p164='?' (Size = 4000), @p165='?' (Size = 4000), @p166='?' (Size = 4000), @p167='?' (Size = 4000), @p168='?' (Size = 4000), @p169='?' (Size = 4000), @p170='?' (Size = 4000), @p171='?' (Size = 4000), @p172='?' (Size = 4000), @p173='?' (Size = 4000), @p174='?' (Size = 4000), @p175='?' (Size = 4000), @p176='?' (Size = 4000), @p177='?' (Size = 4000), @p178='?' (Size = 4000), @p179='?' (Size = 4000), @p180='?' (Size = 4000), @p181='?' (Size = 4000), @p182='?' (Size = 4000), @p183='?' (Size = 4000), @p184='?' (Size = 4000), @p185='?' (Size = 4000), @p186='?' (Size = 4000), @p187='?' (Size = 4000), @p188='?' (Size = 4000), @p189='?' (Size = 4000), @p190='?' (Size = 4000), @p191='?' (Size = 4000), @p192='?' (Size = 4000), @p193='?' (Size = 4000), @p194='?' (Size = 4000), @p195='?' (Size = 4000), @p196='?' (Size = 4000), @p197='?' (Size = 4000), @p198='?' (Size = 4000), @p199='?' (Size = 4000), @p200='?' (Size = 4000), @p201='?' (Size = 4000), @p202='?' (Size = 4000), @p203='?' (Size = 4000), @p204='?' (Size = 4000), @p205='?' (Size = 4000), @p206='?' (Size = 4000), @p207='?' (Size = 4000), @p208='?' (Size = 4000), @p209='?' (Size = 4000), @p210='?' (Size = 4000), @p211='?' (Size = 4000), @p212='?' (Size = 4000), @p213='?' (Size = 4000), @p214='?' (Size = 4000), @p215='?' (Size = 4000), @p216='?' (Size = 4000), @p217='?' (Size = 4000), @p218='?' (Size = 4000), @p219='?' (Size = 4000), @p220='?' (Size = 4000), @p221='?' (Size = 4000), @p222='?' (Size = 4000), @p223='?' (Size = 4000), @p224='?' (Size = 4000), @p225='?' (Size = 4000), @p226='?' (Size = 4000), @p227='?' (Size = 4000), @p228='?' (Size = 4000), @p229='?' (Size = 4000), @p230='?' (Size = 4000), @p231='?' (Size = 4000), @p232='?' (Size = 4000), @p233='?' (Size = 4000), @p234='?' (Size = 4000), @p235='?' (Size = 4000), @p236='?' (Size = 4000), @p237='?' (Size = 4000), @p238='?' (Size = 4000), @p239='?' (Size = 4000), @p240='?' (Size = 4000), @p241='?' (Size = 4000), @p242='?' (Size = 4000), @p243='?' (Size = 4000), @p244='?' (Size = 4000), @p245='?' (Size = 4000), @p246='?' (Size = 4000), @p247='?' (Size = 4000), @p248='?' (Size = 4000), @p249='?' (Size = 4000), @p250='?' (Size = 4000), @p251='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [VCard] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, 0),
+(@p6, @p7, @p8, @p9, @p10, @p11, 1),
+(@p12, @p13, @p14, @p15, @p16, @p17, 2),
+(@p18, @p19, @p20, @p21, @p22, @p23, 3),
+(@p24, @p25, @p26, @p27, @p28, @p29, 4),
+(@p30, @p31, @p32, @p33, @p34, @p35, 5),
+(@p36, @p37, @p38, @p39, @p40, @p41, 6),
+(@p42, @p43, @p44, @p45, @p46, @p47, 7),
+(@p48, @p49, @p50, @p51, @p52, @p53, 8),
+(@p54, @p55, @p56, @p57, @p58, @p59, 9),
+(@p60, @p61, @p62, @p63, @p64, @p65, 10),
+(@p66, @p67, @p68, @p69, @p70, @p71, 11),
+(@p72, @p73, @p74, @p75, @p76, @p77, 12),
+(@p78, @p79, @p80, @p81, @p82, @p83, 13),
+(@p84, @p85, @p86, @p87, @p88, @p89, 14),
+(@p90, @p91, @p92, @p93, @p94, @p95, 15),
+(@p96, @p97, @p98, @p99, @p100, @p101, 16),
+(@p102, @p103, @p104, @p105, @p106, @p107, 17),
+(@p108, @p109, @p110, @p111, @p112, @p113, 18),
+(@p114, @p115, @p116, @p117, @p118, @p119, 19),
+(@p120, @p121, @p122, @p123, @p124, @p125, 20),
+(@p126, @p127, @p128, @p129, @p130, @p131, 21),
+(@p132, @p133, @p134, @p135, @p136, @p137, 22),
+(@p138, @p139, @p140, @p141, @p142, @p143, 23),
+(@p144, @p145, @p146, @p147, @p148, @p149, 24),
+(@p150, @p151, @p152, @p153, @p154, @p155, 25),
+(@p156, @p157, @p158, @p159, @p160, @p161, 26),
+(@p162, @p163, @p164, @p165, @p166, @p167, 27),
+(@p168, @p169, @p170, @p171, @p172, @p173, 28),
+(@p174, @p175, @p176, @p177, @p178, @p179, 29),
+(@p180, @p181, @p182, @p183, @p184, @p185, 30),
+(@p186, @p187, @p188, @p189, @p190, @p191, 31),
+(@p192, @p193, @p194, @p195, @p196, @p197, 32),
+(@p198, @p199, @p200, @p201, @p202, @p203, 33),
+(@p204, @p205, @p206, @p207, @p208, @p209, 34),
+(@p210, @p211, @p212, @p213, @p214, @p215, 35),
+(@p216, @p217, @p218, @p219, @p220, @p221, 36),
+(@p222, @p223, @p224, @p225, @p226, @p227, 37),
+(@p228, @p229, @p230, @p231, @p232, @p233, 38),
+(@p234, @p235, @p236, @p237, @p238, @p239, 39),
+(@p240, @p241, @p242, @p243, @p244, @p245, 40),
+(@p246, @p247, @p248, @p249, @p250, @p251, 41)) AS i ([City], [Country], [Email], [Firstname], [Phone], [Surname], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([City], [Country], [Email], [Firstname], [Phone], [Surname])
+VALUES (i.[City], i.[Country], i.[Email], i.[Firstname], i.[Phone], i.[Surname])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [i].[Id] FROM @inserted0 i
+ORDER BY [i].[_Position];
+2022-09-23 02:27:34.169 +04:00 [INF] Executed DbCommand (66ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (Size = 4000), @p17='?' (Size = 4000), @p18='?' (Size = 4000), @p19='?' (Size = 4000), @p20='?' (Size = 4000), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (Size = 4000), @p25='?' (Size = 4000), @p26='?' (Size = 4000), @p27='?' (Size = 4000), @p28='?' (Size = 4000), @p29='?' (Size = 4000), @p30='?' (Size = 4000), @p31='?' (Size = 4000), @p32='?' (Size = 4000), @p33='?' (Size = 4000), @p34='?' (Size = 4000), @p35='?' (Size = 4000), @p36='?' (Size = 4000), @p37='?' (Size = 4000), @p38='?' (Size = 4000), @p39='?' (Size = 4000), @p40='?' (Size = 4000), @p41='?' (Size = 4000), @p42='?' (Size = 4000), @p43='?' (Size = 4000), @p44='?' (Size = 4000), @p45='?' (Size = 4000), @p46='?' (Size = 4000), @p47='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [VCard] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, 0),
+(@p6, @p7, @p8, @p9, @p10, @p11, 1),
+(@p12, @p13, @p14, @p15, @p16, @p17, 2),
+(@p18, @p19, @p20, @p21, @p22, @p23, 3),
+(@p24, @p25, @p26, @p27, @p28, @p29, 4),
+(@p30, @p31, @p32, @p33, @p34, @p35, 5),
+(@p36, @p37, @p38, @p39, @p40, @p41, 6),
+(@p42, @p43, @p44, @p45, @p46, @p47, 7)) AS i ([City], [Country], [Email], [Firstname], [Phone], [Surname], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([City], [Country], [Email], [Firstname], [Phone], [Surname])
+VALUES (i.[City], i.[Country], i.[Email], i.[Firstname], i.[Phone], i.[Surname])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [i].[Id] FROM @inserted0 i
+ORDER BY [i].[_Position];
+2022-09-23 02:27:46.818 +04:00 [INF] Added succesfully new record
+2022-09-23 02:27:52.413 +04:00 [INF] HTTP GET /Card/GetDataFromApi responded 200 in 25451.3981 ms
+2022-09-23 02:28:03.324 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 02:28:03.376 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 02:28:03.383 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 02:28:03.387 +04:00 [INF] Hosting environment: Development
+2022-09-23 02:28:03.391 +04:00 [INF] Content root path: C:\Users\KHANIM\Source\Repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 02:28:11.500 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 02:28:13.789 +04:00 [INF] Executed DbCommand (185ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 02:28:27.002 +04:00 [INF] HTTP GET / responded 200 in 22551.5553 ms
+2022-09-23 02:28:27.156 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 22.0849 ms
+2022-09-23 02:28:37.753 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 02:28:38.614 +04:00 [INF] Executed DbCommand (176ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 02:28:43.483 +04:00 [INF] Show generated qr code and about info page
+2022-09-23 02:28:43.501 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 02:28:43.668 +04:00 [INF] HTTP GET /Card/QrCode/1 responded 200 in 13896.7049 ms
+2022-09-23 02:28:43.721 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 0.0677 ms
+2022-09-23 02:36:24.124 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 02:36:24.189 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 02:36:24.197 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 02:36:24.237 +04:00 [INF] Hosting environment: Development
+2022-09-23 02:36:24.244 +04:00 [INF] Content root path: C:\Users\KHANIM\Source\Repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 02:36:36.365 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 02:36:40.302 +04:00 [INF] Executed DbCommand (179ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 02:36:52.471 +04:00 [INF] HTTP GET / responded 200 in 27113.9530 ms
+2022-09-23 02:36:52.633 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 6.8031 ms
+2022-09-23 02:36:55.357 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 02:36:56.503 +04:00 [INF] Executed DbCommand (195ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 02:37:00.079 +04:00 [INF] Show generated qr code and about info page
+2022-09-23 02:37:00.098 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 02:37:00.330 +04:00 [INF] HTTP GET /Card/QrCode/1 responded 200 in 5633.2635 ms
+2022-09-23 02:37:00.394 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 0.0685 ms
+2022-09-23 13:13:14.885 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 13:13:14.929 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 13:13:14.937 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 13:13:14.941 +04:00 [INF] Hosting environment: Development
+2022-09-23 13:13:14.944 +04:00 [INF] Content root path: C:\Users\KHANIM\source\repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 13:13:26.482 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 13:13:31.659 +04:00 [INF] Executed DbCommand (122ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 13:13:32.490 +04:00 [INF] HTTP GET / responded 200 in 15068.5553 ms
+2022-09-23 13:13:32.628 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 18.0801 ms
+2022-09-23 13:13:36.322 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 13:13:36.682 +04:00 [INF] Executed DbCommand (54ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 13:13:38.385 +04:00 [INF] Show generated qr code and about info page
+2022-09-23 13:13:38.399 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 13:13:38.453 +04:00 [INF] HTTP GET /Card/QrCode/1 responded 200 in 2647.5339 ms
+2022-09-23 13:13:38.488 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 0.1163 ms
+2022-09-23 18:46:05.024 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 18:46:05.161 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 18:46:05.225 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 18:46:06.766 +04:00 [INF] Hosting environment: Development
+2022-09-23 18:46:06.776 +04:00 [INF] Content root path: C:\Users\KHANIM\source\repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 18:46:12.805 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 18:46:17.285 +04:00 [INF] Executed DbCommand (371ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 18:46:18.527 +04:00 [INF] HTTP GET / responded 200 in 8784.0053 ms
+2022-09-23 18:46:18.823 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 3.9140 ms
+2022-09-23 18:46:21.922 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 18:46:22.711 +04:00 [INF] Executed DbCommand (89ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 18:46:26.964 +04:00 [INF] Executed DbCommand (28ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 18:46:27.099 +04:00 [INF] HTTP GET /Card/QrCode/1 responded 200 in 5558.8323 ms
+2022-09-23 18:46:27.217 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 0.0271 ms
+2022-09-23 18:48:32.391 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 18:48:32.703 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 18:48:32.734 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 18:48:32.825 +04:00 [INF] Hosting environment: Development
+2022-09-23 18:48:32.830 +04:00 [INF] Content root path: C:\Users\KHANIM\source\repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 18:48:36.174 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 18:48:39.794 +04:00 [INF] Executed DbCommand (358ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 18:48:40.725 +04:00 [INF] HTTP GET / responded 200 in 6977.1358 ms
+2022-09-23 18:48:41.704 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 33.9720 ms
+2022-09-23 18:48:45.361 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 18:48:46.203 +04:00 [INF] Executed DbCommand (140ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 18:48:48.837 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 18:48:48.990 +04:00 [INF] HTTP GET /Card/QrCode/1 responded 200 in 4007.4532 ms
+2022-09-23 18:48:50.944 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 18:48:50.961 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 18:48:51.011 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 18:48:51.110 +04:00 [INF] HTTP GET /Card/QrCode/1 responded 200 in 196.3960 ms
+2022-09-23 18:48:51.168 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 1.0897 ms
+2022-09-23 19:00:26.725 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 19:00:26.786 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 19:00:26.793 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 19:00:26.798 +04:00 [INF] Hosting environment: Development
+2022-09-23 19:00:26.802 +04:00 [INF] Content root path: C:\Users\KHANIM\source\repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 19:00:32.025 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 19:00:35.015 +04:00 [INF] Executed DbCommand (232ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 19:00:36.149 +04:00 [INF] HTTP GET / responded 200 in 6918.3918 ms
+2022-09-23 19:00:36.327 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 10.2775 ms
+2022-09-23 19:00:38.678 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 19:00:39.470 +04:00 [INF] Executed DbCommand (110ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 19:00:41.942 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 19:00:42.057 +04:00 [INF] HTTP GET /Card/QrCode/1 responded 200 in 3733.7542 ms
+2022-09-23 19:00:42.108 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 0.0717 ms
+2022-09-23 19:34:10.857 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 19:34:10.978 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 19:34:10.989 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 19:34:10.994 +04:00 [INF] Hosting environment: Development
+2022-09-23 19:34:10.998 +04:00 [INF] Content root path: C:\Users\KHANIM\source\repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 19:58:27.073 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 19:58:27.129 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 19:58:27.143 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 19:58:27.154 +04:00 [INF] Hosting environment: Development
+2022-09-23 19:58:27.164 +04:00 [INF] Content root path: C:\Users\KHANIM\source\repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 19:58:56.142 +04:00 [INF] Now listening on: https://localhost:7247
+2022-09-23 19:58:56.192 +04:00 [INF] Now listening on: http://localhost:5247
+2022-09-23 19:58:56.198 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 19:58:56.200 +04:00 [INF] Hosting environment: Development
+2022-09-23 19:58:56.201 +04:00 [INF] Content root path: C:\Users\KHANIM\source\repos\GeneratedQrCode\SerilogLogging\
+2022-09-23 19:59:08.991 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 19:59:12.491 +04:00 [INF] Executed DbCommand (309ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+2022-09-23 19:59:12.792 +04:00 [INF] Showed all list
+2022-09-23 19:59:13.262 +04:00 [INF] HTTP GET / responded 200 in 16161.6541 ms
+2022-09-23 19:59:13.364 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 5.2200 ms
+2022-09-23 19:59:26.518 +04:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2022-09-23 19:59:27.453 +04:00 [INF] Executed DbCommand (203ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 19:59:29.943 +04:00 [INF] Show details with qr code
+2022-09-23 19:59:29.960 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[City], [v].[Country], [v].[Email], [v].[Firstname], [v].[Phone], [v].[Surname]
+FROM [VCard] AS [v]
+WHERE [v].[Id] = @__id_0
+2022-09-23 19:59:30.058 +04:00 [INF] HTTP GET /Card/QrCode/1 responded 200 in 4038.8951 ms
+2022-09-23 19:59:30.097 +04:00 [INF] HTTP GET /SerilogLogging.styles.css responded 404 in 0.4335 ms

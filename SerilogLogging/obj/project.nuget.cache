@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CZIWOtGw2W4ToAIvVTz0ek3NjKO5YXLwm+g+fC3ukvO61HxrWB08cdPoj6w5z0vEDhZzetQPj6F9KdNkvbMtkA==",
+  "dgSpecHash": "l69BMBB3b6smfAXFyXlAM8VIq6xPAkgFTYppLxZ5cl+TADJgbfgslv/cT8+CzWmnaF0VipY5CFuyhDog57oUng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\SerilogLogging\\GeneratedQrCode.csproj",
+  "projectFilePath": "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\SerilogLogging\\GeneratedQrCode.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KHANIM\\.nuget\\packages\\barcode\\2022.9.8982\\barcode.2022.9.8982.nupkg.sha512",
     "C:\\Users\\KHANIM\\.nuget\\packages\\emguffmpeg\\1.0.17\\emguffmpeg.1.0.17.nupkg.sha512",

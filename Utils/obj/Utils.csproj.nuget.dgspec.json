@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\Utils.csproj": {}
+    "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\Utils\\Utils.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\Utils.csproj": {
+    "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\Utils\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\Utils.csproj",
+        "projectUniqueName": "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\Utils\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\Utils.csproj",
+        "projectPath": "C:\\Users\\KHANIM\\source\\repos\\GeneratedQrCode\\Utils\\Utils.csproj",
         "packagesPath": "C:\\Users\\KHANIM\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\KHANIM\\Source\\Repos\\GeneratedQrCode\\Utils\\obj\\",
         "projectStyle": "PackageReference",

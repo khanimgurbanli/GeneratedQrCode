@@ -36,8 +36,6 @@ internal class Program
 
 
         Log.Logger = new LoggerConfiguration()
-        .WriteTo.Console()
-        .WriteTo.Debug(outputTemplate: DateTime.Now.ToString())
         .WriteTo.Seq("http://localhost:5341/")
         .ReadFrom.Configuration(configuration)
         .MinimumLevel.Override("Microsoft.AspNetCore", LogEventLevel.Warning)
@@ -61,6 +59,7 @@ internal class Program
         var app = builder.Build();
 
         app.UseHttpsRedirection();
+        
         app.UseStaticFiles();
 
         app.UseSerilogRequestLogging();

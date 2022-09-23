@@ -2,6 +2,7 @@
 using IronBarCode;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.Extensions.Logging;
 using Services;
 using System.Drawing;
 using Utils.Exceptions;
@@ -27,8 +28,7 @@ namespace Logging_Serilog.Controllers
             {
                 string imageUrl = $"{this.Request.Scheme}://{this.Request.Host}{this.Request.PathBase}" + "/GeneratedQRCode/" + fileName;
                 @ViewBag.QrCodeUri = imageUrl;
-
-                _logger.LogInformation("Show generated qr code and about info page");
+                _logger.LogInformation("Show details with qr code");
             }
             catch (Exception ex)
             {
@@ -43,7 +43,9 @@ namespace Logging_Serilog.Controllers
         public async Task<IActionResult> Index()
         {
             var getdata = await _cardService.GetAllVCardsAsync();
-            return View(getdata);
+            if (getdata.Count == 0) return RedirectToAction(nameof(GetDataFromApi));
+            _logger.LogInformation("Showed all list");
+             return View(getdata);
         }
 
         public IActionResult Add() => View();
@@ -69,7 +71,7 @@ namespace Logging_Serilog.Controllers
             try
             {
                 await _cardService.HttpClientVCardAsync();
-                _logger.LogInformation("Added succesfully new record");
+                _logger.LogInformation("Added succesfully records to database from url");
                 return View();
             }
             catch (Exception ex)
